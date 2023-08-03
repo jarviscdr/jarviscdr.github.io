@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://jarviscdr.github.io/project
+url: https://jarviscdr.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,5 +104,4 @@ theme: fluid
 deploy:
   type: 'git'
   repo: git@github.com:jarviscdr/jarviscdr.github.io.git
-  branch: [gh-pages]
-  message: [部署完成]
+  branch: gh-pages
