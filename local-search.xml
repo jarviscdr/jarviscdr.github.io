@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="/project/2023/08/03/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <url>/project/2023/08/03/Markdown%E8%AF%AD%E6%B3%95/</url>
+    
+    <content type="html"><![CDATA[<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br><span class="hljs-section">#### 四级标题</span><br><span class="hljs-section">##### 五级标题</span><br><span class="hljs-section">###### 六级标题</span><br></code></pre></td></tr></table></figure><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>斜体文字</em> <code>*斜体文字*</code></p><p><strong>粗体文字</strong> <code>**粗体文字**</code></p><p><em><strong>粗斜体文字</strong></em> <code>***粗斜体文字***</code></p><p><del>删除线</del> <code>~~删除线~~</code></p><p><u>下划线</u> <code>&lt;u&gt;下划线&lt;/u&gt;</code></p><h2 id="链接与图片"><a href="#链接与图片" class="headerlink" title="链接与图片"></a>链接与图片</h2><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="https://jarviscdr.github.io/">JarvisBlog</a> <code>[JarvisBlog](https://jarviscdr.github.io)</code></p><p><a href="https://jarviscdr.github.io/">https://jarviscdr.github.io</a> <code>&lt;https://jarviscdr.github.io&gt;</code></p><p><a href="https://jarviscdr.github.io/">引用方式</a></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-section"># 引用方式</span><br>[<span class="hljs-string">JarvisBlog</span>][<span class="hljs-symbol">1</span>]<br><br>[<span class="hljs-symbol">1</span>]: <span class="hljs-link">https://jarviscdr.github.io</span><br></code></pre></td></tr></table></figure><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><h4 id="默认图片"><a href="#默认图片" class="headerlink" title="默认图片"></a>默认图片</h4><p><img src="https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png" alt="图片描述"><br><code>![图片描述](https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png)</code></p><h4 id="图文混排"><a href="#图文混排" class="headerlink" title="图文混排"></a>图文混排</h4><div align=right>    图文混排    <img src="https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png" alt="图片描述" width="30" height="30" style="background-color:transparent;" /></div><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-comment">&lt;!-- 使用img标签可进行精细控制 --&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">align</span>=<span class="hljs-string">right</span>&gt;</span><br>    图文混排<br>    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;图片描述&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;30&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;30&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;background-color:transparent;&quot;</span> /&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br></code></pre></td></tr></table></figure><h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><hr><p><code>*** # 需要占据一行</code></p><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table><thead><tr><th>默认</th><th align="left">左对齐</th><th align="center">居中对齐</th><th align="right">右对齐</th></tr></thead><tbody><tr><td>value</td><td align="left">value</td><td align="center">value</td><td align="right">value</td></tr><tr><td>value</td><td align="left">value</td><td align="center">value</td><td align="right">value</td></tr></tbody></table><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs gherkin">|<span class="hljs-string"> 默认  </span>|<span class="hljs-string"> 左对齐 </span>|<span class="hljs-string"> 居中对齐 </span>|<span class="hljs-string"> 右对齐 </span>|<br>|<span class="hljs-string"> ----- </span>|<span class="hljs-string"> :----- </span>|<span class="hljs-string"> :------: </span>|<span class="hljs-string"> -----: </span>|<br>|<span class="hljs-string"> value </span>|<span class="hljs-string"> value  </span>|<span class="hljs-string">  value   </span>|<span class="hljs-string">  value </span>|<br>|<span class="hljs-string"> value </span>|<span class="hljs-string"> value  </span>|<span class="hljs-string">  value   </span>|<span class="hljs-string">  value </span>|<br></code></pre></td></tr></table></figure><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul><li>列表项1 <code>- 列表项1</code></li><li>列表项2 <code>- 列表项2</code></li><li>列表项3 <code>- 列表项3</code></li></ul><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol><li>列表项1 <code>1. 列表项1</code></li><li>列表项2 <code>2. 列表项2</code></li><li>列表项3 <code>3. 列表项3</code></li></ol><h3 id="嵌套列表"><a href="#嵌套列表" class="headerlink" title="嵌套列表"></a>嵌套列表</h3><ol><li>有序列表1 <code>1. 有序列表1</code><ul><li>列表项1 <code>- 列表项1</code></li></ul></li><li>有序列表2 <code>2. 有序列表2</code><ul><li>列表项2 <code>- 列表项2</code></li></ul></li></ol><h3 id="待办列表"><a href="#待办列表" class="headerlink" title="待办列表"></a>待办列表</h3><ul><li><input disabled="" type="checkbox"> 这里是列表文本 <code>- [ ] 这里是列表文本</code></li><li><input checked="" disabled="" type="checkbox"> 这里是列表文本 <code>- [x] 这里是列表文本</code></li></ul><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote><ol><li>最外层<blockquote><ol start="2"><li>第一层嵌套<blockquote><ol start="3"><li>第二层嵌套</li></ol></blockquote></li></ol></blockquote></li></ol></blockquote><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-quote">&gt; 1. 最外层</span><br>&gt;&gt; 2. 第一层嵌套<br>&gt;&gt;&gt; 3. 第二层嵌套<br></code></pre></td></tr></table></figure><h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>右侧是注对应的编号. <sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="脚注链接">[1]</span></a></sup></p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Markdown">右侧是注对应的编号. [^1]<br><br>[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">脚注链接</span><br></code></pre></td></tr></table></figure><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs arcade">​<span class="hljs-string">``</span><span class="hljs-string">`语言</span><br><span class="hljs-string">代码块</span><br><span class="hljs-string">​`</span><span class="hljs-string">``</span><br></code></pre></td></tr></table></figure><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>脚注链接<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>笔记</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Markdown</tag>
+      
+      <tag>常用</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>常用命令</title>
+    <link href="/project/2023/08/02/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <url>/project/2023/08/02/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h1 id="各类设置国内镜像的命令"><a href="#各类设置国内镜像的命令" class="headerlink" title="各类设置国内镜像的命令"></a>各类设置国内镜像的命令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 设置阿里NPM镜像</span><br>npm config <span class="hljs-built_in">set</span> registry https://registry.npmmirror.com<br><br><span class="hljs-comment"># 设置alpinelinux镜像</span><br>sed -i <span class="hljs-string">&#x27;s/dl-cdn.alpinelinux.org/mirrors.aliyun.com/g&#x27;</span> /etc/apk/repositories &amp;&amp; apk update &amp;&amp; apk upgrade<br><br>git config --global user.email <span class="hljs-string">&quot;jarviscdr@outlook.com&quot;</span><br>git config --global user.name <span class="hljs-string">&quot;Jarvis&quot;</span><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>常用</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Shell</tag>
+      
+      <tag>国内镜像</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
