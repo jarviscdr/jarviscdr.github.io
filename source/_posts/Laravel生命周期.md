@@ -2,11 +2,12 @@
 title: Laravel生命周期
 date: 2023-08-03 13:47:43
 banner_img:
-index_img: https://s2.loli.net/2023/08/03/EMeaf5sFSQ6kh13.jpg
+index_img: https://s3.bmp.ovh/imgs/2023/08/04/83562a7c2b4449b2.jpeg
 categories:
 - PHP
 tags:
 - Laravel
+- 生命周期
 ---
 
 # Laravel生命周期

@@ -1,6 +1,7 @@
 ---
 title: Markdown语法
 date: 2023-08-03 08:00:17
+index_img: https://s3.bmp.ovh/imgs/2023/08/04/0561aa8ca3e4e565.jpg
 categories:
 - 笔记
 tags:
