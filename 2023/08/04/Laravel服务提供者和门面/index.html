@@ -16,25 +16,27 @@
   <meta name="author" content="Jarvis">
   <meta name="keywords" content="">
   
-    <meta name="description" content="标题123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题   字体斜体文字 *斜体文字* 粗体文字 **粗体文字** 粗斜体文字 ***粗斜体文字*** 删除线 ~~删除线~~ 下划线 &lt;u&gt;下划线&lt;&#x2F;u&gt; 链接与图片链接JarvisBlog [JarvisBlog](https:&#x2F;&#x2F;jarviscdr.gith">
+    <meta name="description" content="服务提供者创建服务提供者服务提供者是一种用于注册、维护和注入服务的工具。主要是用来维护应用程序的各种类实例、接口和依赖项，并管理它们的生命周期简单来说，服务提供者就是为应用程序提供服务的类。提供的服务可以是任何东西，比如自定义的服务类、数据库连接类、第三方库等等。 所有的服务提供者都会继承 Illuminate\Support\ServiceProvider 类。大多服务提供者都包含一个 regi">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown语法">
-<meta property="og:url" content="https://jarviscdr.github.io/2023/08/03/Markdown%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:title" content="Laravel服务提供者和门面">
+<meta property="og:url" content="https://jarviscdr.github.io/2023/08/04/Laravel%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85%E5%92%8C%E9%97%A8%E9%9D%A2/index.html">
 <meta property="og:site_name" content="Jarvis的博客">
-<meta property="og:description" content="标题123456# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题   字体斜体文字 *斜体文字* 粗体文字 **粗体文字** 粗斜体文字 ***粗斜体文字*** 删除线 ~~删除线~~ 下划线 &lt;u&gt;下划线&lt;&#x2F;u&gt; 链接与图片链接JarvisBlog [JarvisBlog](https:&#x2F;&#x2F;jarviscdr.gith">
+<meta property="og:description" content="服务提供者创建服务提供者服务提供者是一种用于注册、维护和注入服务的工具。主要是用来维护应用程序的各种类实例、接口和依赖项，并管理它们的生命周期简单来说，服务提供者就是为应用程序提供服务的类。提供的服务可以是任何东西，比如自定义的服务类、数据库连接类、第三方库等等。 所有的服务提供者都会继承 Illuminate\Support\ServiceProvider 类。大多服务提供者都包含一个 regi">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s3.bmp.ovh/imgs/2023/08/04/0561aa8ca3e4e565.jpg">
-<meta property="article:published_time" content="2023-08-03T00:00:17.000Z">
-<meta property="article:modified_time" content="2023-08-04T09:11:22.501Z">
+<meta property="og:image" content="https://s3.bmp.ovh/imgs/2023/08/04/83562a7c2b4449b2.jpeg">
+<meta property="article:published_time" content="2023-08-04T08:09:43.000Z">
+<meta property="article:modified_time" content="2023-08-04T08:56:57.000Z">
 <meta property="article:author" content="Jarvis">
-<meta property="article:tag" content="Markdown">
-<meta property="article:tag" content="常用">
+<meta property="article:tag" content="Laravel">
+<meta property="article:tag" content="服务提供者">
+<meta property="article:tag" content="门面">
+<meta property="article:tag" content="Facades">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2023/08/04/0561aa8ca3e4e565.jpg">
+<meta name="twitter:image" content="https://s3.bmp.ovh/imgs/2023/08/04/83562a7c2b4449b2.jpeg">
   
   
   
-  <title>Markdown语法 - Jarvis的博客</title>
+  <title>Laravel服务提供者和门面 - Jarvis的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -200,7 +202,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Markdown语法"></span>
+            <span id="subtitle" data-typed-text="Laravel服务提供者和门面"></span>
           
         </div>
 
@@ -211,8 +213,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-08-03 08:00" pubdate>
-          2023年8月3日 早上
+        <time datetime="2023-08-04 16:09" pubdate>
+          2023年8月4日 下午
         </time>
       </span>
     
@@ -223,7 +225,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.1k 字
+          668 字
         
       </span>
     
@@ -234,7 +236,7 @@
         
         
         
-          10 分钟
+          6 分钟
         
       </span>
     
@@ -271,12 +273,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Markdown语法</h1>
+            <h1 id="seo-header">Laravel服务提供者和门面</h1>
             
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2 分钟前
+                    本文最后更新于：16 分钟前
                   
                 
               </p>
@@ -284,103 +286,14 @@
             
               <div class="markdown-body">
                 
-                <h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-section"># 一级标题</span><br><span class="hljs-section">## 二级标题</span><br><span class="hljs-section">### 三级标题</span><br><span class="hljs-section">#### 四级标题</span><br><span class="hljs-section">##### 五级标题</span><br><span class="hljs-section">###### 六级标题</span><br></code></pre></td></tr></table></figure>
+                <h1 id="服务提供者"><a href="#服务提供者" class="headerlink" title="服务提供者"></a>服务提供者</h1><h2 id="创建服务提供者"><a href="#创建服务提供者" class="headerlink" title="创建服务提供者"></a>创建服务提供者</h2><p>服务提供者是一种用于注册、维护和注入服务的工具。主要是用来维护应用程序的各种类实例、接口和依赖项，并管理它们的生命周期<br>简单来说，服务提供者就是为应用程序提供服务的类。<br>提供的服务可以是任何东西，比如自定义的服务类、数据库连接类、第三方库等等。</p>
+<p>所有的服务提供者都会继承 <code>Illuminate\Support\ServiceProvider</code> 类。<br>大多服务提供者都包含一个 <code>register</code> 和一个 <code>boot</code> 方法。<br>其中 <code>register</code> 方法是用于将服务绑定到服务容器中的，并且不要在 <code>register</code> 中注册任何监听器，路由，或者其他任何功能<br><code>boot</code> 方法则是会在所有服务提供者被注册以后才会被调用</p>
+<p>使用 <code>php artisan make:provider XxxxProvider</code> 可以快速创建一个服务提供者</p>
+<h2 id="注册服务提供者"><a href="#注册服务提供者" class="headerlink" title="注册服务提供者"></a>注册服务提供者</h2><p>所有服务提供者都是通过配置文件 <code>config/app.php</code> 内的 <code>providers</code> 数组进行注册。</p>
+<h2 id="延迟提供者"><a href="#延迟提供者" class="headerlink" title="延迟提供者"></a>延迟提供者</h2><p>延迟加载服务，只有在开始使用该服务时再加载，可以提升应用的性能，因为不需要每次请求都加载该服务。<br>要使用延迟提供者需要实现 <code>\Illuminate\Contracts\Support\DeferrableProvider</code> 接口</p>
+<h1 id="门面-Facades"><a href="#门面-Facades" class="headerlink" title="门面(Facades)"></a>门面(Facades)</h1><p><strong>Laravel Facades 充当服务容器中底层类的「静态代理」，主要的作用就是更方便地使用服务容器中的各种类</strong></p>
+<p>Facades的使用就是用 <code>__callStatic()</code> 魔术方法动态调用服务类中的各种方法<br>只要在门面内的 <code>getFacadeAccessor</code> 方法内返回在服务容器中绑定的名称即可</p>
 
-
-<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>斜体文字</em> <code>*斜体文字*</code></p>
-<p><strong>粗体文字</strong> <code>**粗体文字**</code></p>
-<p><em><strong>粗斜体文字</strong></em> <code>***粗斜体文字***</code></p>
-<p><del>删除线</del> <code>~~删除线~~</code></p>
-<p><u>下划线</u> <code>&lt;u&gt;下划线&lt;/u&gt;</code></p>
-<h2 id="链接与图片"><a href="#链接与图片" class="headerlink" title="链接与图片"></a>链接与图片</h2><h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p><a href="https://jarviscdr.github.io/">JarvisBlog</a> <code>[JarvisBlog](https://jarviscdr.github.io)</code></p>
-<p><a href="https://jarviscdr.github.io/">https://jarviscdr.github.io</a> <code>&lt;https://jarviscdr.github.io&gt;</code></p>
-<p><a href="https://jarviscdr.github.io/">引用方式</a></p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-section"># 引用方式</span><br>[<span class="hljs-string">JarvisBlog</span>][<span class="hljs-symbol">1</span>]<br><br>[<span class="hljs-symbol">1</span>]: <span class="hljs-link">https://jarviscdr.github.io</span><br></code></pre></td></tr></table></figure>
-<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><h4 id="默认图片"><a href="#默认图片" class="headerlink" title="默认图片"></a>默认图片</h4><p><img src="https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png" srcset="/img/loading.gif" lazyload alt="图片描述"><br><code>![图片描述](https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png)</code></p>
-<h4 id="图文混排"><a href="#图文混排" class="headerlink" title="图文混排"></a>图文混排</h4><div align=right>
-    图文混排
-    <img src="https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png" srcset="/img/loading.gif" lazyload alt="图片描述" width="30" height="30" style="background-color:transparent;" />
-</div>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-comment">&lt;!-- 使用img标签可进行精细控制 --&gt;</span><br><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">align</span>=<span class="hljs-string">right</span>&gt;</span><br>    图文混排<br>    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://s2.loli.net/2023/08/03/PrGmgCE1qacUylv.png&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;图片描述&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;30&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;30&quot;</span> <span class="hljs-attr">style</span>=<span class="hljs-string">&quot;background-color:transparent;&quot;</span> /&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span><br></code></pre></td></tr></table></figure>
-
-
-<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><hr>
-<p><code>*** # 需要占据一行</code></p>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><table>
-<thead>
-<tr>
-<th>默认</th>
-<th align="left">左对齐</th>
-<th align="center">居中对齐</th>
-<th align="right">右对齐</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>value</td>
-<td align="left">value</td>
-<td align="center">value</td>
-<td align="right">value</td>
-</tr>
-<tr>
-<td>value</td>
-<td align="left">value</td>
-<td align="center">value</td>
-<td align="right">value</td>
-</tr>
-</tbody></table>
-<figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs gherkin">|<span class="hljs-string"> 默认  </span>|<span class="hljs-string"> 左对齐 </span>|<span class="hljs-string"> 居中对齐 </span>|<span class="hljs-string"> 右对齐 </span>|<br>|<span class="hljs-string"> ----- </span>|<span class="hljs-string"> :----- </span>|<span class="hljs-string"> :------: </span>|<span class="hljs-string"> -----: </span>|<br>|<span class="hljs-string"> value </span>|<span class="hljs-string"> value  </span>|<span class="hljs-string">  value   </span>|<span class="hljs-string">  value </span>|<br>|<span class="hljs-string"> value </span>|<span class="hljs-string"> value  </span>|<span class="hljs-string">  value   </span>|<span class="hljs-string">  value </span>|<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
-<li>列表项1 <code>- 列表项1</code></li>
-<li>列表项2 <code>- 列表项2</code></li>
-<li>列表项3 <code>- 列表项3</code></li>
-</ul>
-<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
-<li>列表项1 <code>1. 列表项1</code></li>
-<li>列表项2 <code>2. 列表项2</code></li>
-<li>列表项3 <code>3. 列表项3</code></li>
-</ol>
-<h3 id="嵌套列表"><a href="#嵌套列表" class="headerlink" title="嵌套列表"></a>嵌套列表</h3><ol>
-<li>有序列表1 <code>1. 有序列表1</code><ul>
-<li>列表项1 <code>- 列表项1</code></li>
-</ul>
-</li>
-<li>有序列表2 <code>2. 有序列表2</code><ul>
-<li>列表项2 <code>- 列表项2</code></li>
-</ul>
-</li>
-</ol>
-<h3 id="待办列表"><a href="#待办列表" class="headerlink" title="待办列表"></a>待办列表</h3><ul>
-<li><input disabled="" type="checkbox"> 这里是列表文本 <code>- [ ] 这里是列表文本</code></li>
-<li><input checked="" disabled="" type="checkbox"> 这里是列表文本 <code>- [x] 这里是列表文本</code></li>
-</ul>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><blockquote>
-<ol>
-<li>最外层<blockquote>
-<ol start="2">
-<li>第一层嵌套<blockquote>
-<ol start="3">
-<li>第二层嵌套</li>
-</ol>
-</blockquote>
-</li>
-</ol>
-</blockquote>
-</li>
-</ol>
-</blockquote>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Markdown"><span class="hljs-quote">&gt; 1. 最外层</span><br>&gt;&gt; 2. 第一层嵌套<br>&gt;&gt;&gt; 3. 第二层嵌套<br></code></pre></td></tr></table></figure>
-
-
-<h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>右侧是注对应的编号. <sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="脚注链接">[1]</span></a></sup></p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs Markdown">右侧是注对应的编号. [^1]<br><br>[<span class="hljs-symbol">^1</span>]: <span class="hljs-link">脚注链接</span><br></code></pre></td></tr></table></figure>
-
-
-<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs arcade">​<span class="hljs-string">``</span><span class="hljs-string">`语言</span><br><span class="hljs-string">代码块</span><br><span class="hljs-string">​`</span><span class="hljs-string">``</span><br></code></pre></td></tr></table></figure>
-
-<section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>脚注链接
-<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>
                 
               </div>
             
@@ -398,7 +311,7 @@
     
       <span class="category-chain">
         
-  <a href="/categories/%E7%AC%94%E8%AE%B0/" class="category-chain-item">笔记</a>
+  <a href="/categories/PHP/" class="category-chain-item">PHP</a>
   
   
 
@@ -413,9 +326,13 @@
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/Markdown/" class="print-no-link">#Markdown</a>
+        <a href="/tags/Laravel/" class="print-no-link">#Laravel</a>
       
-        <a href="/tags/%E5%B8%B8%E7%94%A8/" class="print-no-link">#常用</a>
+        <a href="/tags/%E6%9C%8D%E5%8A%A1%E6%8F%90%E4%BE%9B%E8%80%85/" class="print-no-link">#服务提供者</a>
+      
+        <a href="/tags/%E9%97%A8%E9%9D%A2/" class="print-no-link">#门面</a>
+      
+        <a href="/tags/Facades/" class="print-no-link">#Facades</a>
       
     </div>
   
@@ -427,8 +344,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Markdown语法</div>
-      <div>https://jarviscdr.github.io/2023/08/03/Markdown语法/</div>
+      <div>Laravel服务提供者和门面</div>
+      <div>https://jarviscdr.github.io/2023/08/04/Laravel服务提供者和门面/</div>
     </div>
     <div class="license-meta">
       
@@ -440,7 +357,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2023年8月3日</div>
+          <div>2023年8月4日</div>
         </div>
       
       
@@ -478,18 +395,12 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/08/03/Laravel%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/" title="Laravel生命周期">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Laravel生命周期</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/08/02/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/" title="常用命令">
-                        <span class="hidden-mobile">常用命令</span>
+                      <a href="/2023/08/04/Laravel%E5%AE%B9%E5%99%A8/" title="Laravel服务容器">
+                        <span class="hidden-mobile">Laravel服务容器</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
